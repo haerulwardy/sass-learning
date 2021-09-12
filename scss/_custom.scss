@@ -1,0 +1,14 @@
+// MAIN COLOR
+$primary: #68E1FD;
+$secondary: #070732;
+
+// IMPORT COLOR
+$white: #f8f9fa;
+$black: $secondary;
+
+// TYPOGRAFI
+$font-family-sans-serif: 'Quicksand',
+sans-serif;
+
+// IMPORT BOOSTSTRAP FILE
+@import '../node_modules/bootstrap/scss/bootstrap.scss';

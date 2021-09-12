@@ -1,0 +1,21 @@
+@use '../custom'as *;
+
+.hero {
+    color: $secondary;
+    padding: 3rem 12rem !important;
+
+    .row {
+        .hero-paragraph {
+            opacity: 0.6;
+        }
+
+        .hero-image-container {
+            position: relative;
+
+            img {
+                position: absolute;
+                right: 80px;
+            }
+        }
+    }
+}
